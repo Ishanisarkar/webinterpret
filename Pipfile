@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+sqlalchemy = "*"
+falcon = "*"
+gunicorn = "*"
+pydantic = "*"
+python-dotenv = "*"
+psycopg2 = "*"
+marshmallow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
